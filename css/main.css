@@ -92,7 +92,7 @@ header .hero-shadow {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: -10;
 }
 
@@ -153,6 +153,52 @@ header .fa-chevron-down {
   color: #039dff;
 }
 
+.aboutus-hero {
+  position: relative;
+  background-image: url("../img/aboutus-img-samll.jpg");
+  background-position: center;
+  background-size: contain;
+  color: white;
+  z-index: 0;
+}
+
+.aboutus-hero .aboutus-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -5;
+}
+
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 40px;
+}
+
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
+
+.portfolio .carousel-item {
+  height: 600px;
+}
+
+.portfolio .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.portfolio .carousel-indicators {
+  padding-bottom: 20px;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -180,6 +226,9 @@ header .fa-chevron-down {
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-img-samll.jpg");
+  }
+  main .aboutus-hero {
+    background-image: url("../img/aboutus-img-big.jpg");
   }
 }
 /*# sourceMappingURL=main.css.map */

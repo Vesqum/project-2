@@ -14,7 +14,7 @@ html {
 body {
   position: relative;
   font-family: 'Montserrat', sans-serif;
-  background-color: #444;
+  background-color: #ebecf2;
 }
 
 h2 {
@@ -46,7 +46,7 @@ nav {
 
 nav a,
 nav i {
-  color: white;
+  color: #fff;
 }
 
 nav a:hover {
@@ -66,7 +66,7 @@ nav .active {
 }
 
 header {
-  color: white;
+  color: #fff;
 }
 
 header h1 {
@@ -127,7 +127,7 @@ header .fa-chevron-down {
           transform: translateX(-50%);
   bottom: 20px;
   font-size: 30px;
-  color: white;
+  color: #fff;
 }
 
 .aboutus i {
@@ -218,14 +218,14 @@ header .fa-chevron-down {
 }
 
 @media (min-width: 992px) {
-  html {
-    scroll-padding-top: 72px;
+  nav {
+    height: 82px;
   }
 }
 
 @media (min-width: 1200px) {
   header .hero-img {
-    background-image: url("../img/header-img-samll.jpg");
+    background-image: url("../img/header-img-big.jpg");
   }
   main .aboutus-hero {
     background-image: url("../img/aboutus-img-big.jpg");

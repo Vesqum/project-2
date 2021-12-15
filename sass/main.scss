@@ -15,7 +15,7 @@ html {
 body {
     position: relative;
     font-family: 'Montserrat', sans-serif;
-    background-color: #444;
+    background-color: $bg-color;
 }
 
 h2 {
@@ -29,6 +29,8 @@ h2 {
     height: 4px;
     background-color: $main-color;
 }
+
+
 
 .blue-text {
     color: $main-color;
@@ -198,9 +200,9 @@ header {
         padding-bottom: 20px;
     }
 
-    
-
 }
+
+
 
 
 
@@ -229,15 +231,15 @@ header {
 }
 
 @media(min-width: 992px) {
-    html {
-        scroll-padding-top: 72px;
+    nav {
+        height: 82px;
     }
 }
 
 @media(min-width: 1200px) {
     header {
         .hero-img {
-            background-image: url('../img/header-img-samll.jpg');
+            background-image: url('../img/header-img-big.jpg');
         }
     }
 

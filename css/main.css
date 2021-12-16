@@ -183,6 +183,10 @@ header .fa-chevron-down {
   font-size: 24px;
 }
 
+.portfolio {
+  background-color: #ebecf2;
+}
+
 .portfolio .carousel-item {
   height: 600px;
 }
@@ -197,6 +201,97 @@ header .fa-chevron-down {
 
 .portfolio .carousel-indicators {
   padding-bottom: 20px;
+}
+
+.prices .price-box {
+  margin: 30px 20px;
+  padding: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.prices .price-box h3 {
+  text-transform: uppercase;
+  color: #039dff;
+}
+
+.prices .price-box i {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.prices .price-box span {
+  font-weight: bold;
+}
+
+.prices .price-box .price-tag {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.prices .price-box:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.prices .price-info {
+  margin-top: 30px;
+}
+
+.prices .price-info a {
+  text-decoration: none;
+}
+
+.team {
+  position: relative;
+  background-image: url("../img/team-bg-img.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.team h2 {
+  color: #ddd;
+}
+
+.team .team-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -5;
+}
+
+.team .card img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.team .card i {
+  padding: 10px;
+}
+
+.team .card:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+.team .card-title {
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 @media (min-width: 375px) {
@@ -221,14 +316,20 @@ header .fa-chevron-down {
   nav {
     height: 82px;
   }
+  .aboutus-hero {
+    background-image: url("../img/aboutus-img-big.jpg");
+  }
+  .price-info {
+    font-size: 18px;
+  }
+  .team {
+    background-image: url("../img/team-bg-img-big.jpg");
+  }
 }
 
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-img-big.jpg");
-  }
-  main .aboutus-hero {
-    background-image: url("../img/aboutus-img-big.jpg");
   }
 }
 /*# sourceMappingURL=main.css.map */

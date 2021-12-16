@@ -296,7 +296,29 @@ header {
         margin-bottom: 20px;
         text-align: center;
         text-transform: uppercase;
+    }
+    .card-body {
+        height: 160px;
+    }
+}
 
+.achievements {
+    i {
+        padding: 10px;
+        font-size: 36px;
+        color: $white;
+        text-shadow: 0 0 5px #000;
+    }
+
+    .achievements-list {
+      padding: 20px 0;
+    }
+    .achievement-number {
+        font-size: 22px;
+    }
+    .achievement-text {
+        font-size: 13px;
+        text-transform: uppercase;
     }
 }
 

@@ -318,6 +318,60 @@ header .fa-chevron-down {
   text-transform: uppercase;
 }
 
+.contact {
+  position: relative;
+  background-image: url("../img/contact/contact-img-small.jpg");
+  background-size: cover;
+  z-index: 0;
+}
+
+.contact h2 {
+  color: #ddd;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.contact .social-media {
+  font-size: 20px;
+}
+
+.contact .social-media a {
+  padding: 0 10px;
+  color: #ddd;
+}
+
+.contact .contact-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 47, 90, 0.8);
+  z-index: -1;
+}
+
+.contact .underline {
+  background-color: #ddd;
+}
+
+.contact .contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ddd;
+}
+
+.contact .contact-us .contact-item {
+  margin: 30px 0;
+}
+
+.contact .contact-us .contact-item h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
 @media (min-width: 375px) {
   header h1 {
     font-size: 36px;
@@ -348,6 +402,9 @@ header .fa-chevron-down {
   }
   .team {
     background-image: url("../img/team-bg-img-big.jpg");
+  }
+  .contact {
+    background-image: url("../img/contact/contact-img-big.jpg");
   }
 }
 

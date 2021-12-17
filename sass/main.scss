@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'animation';
 
 *,
 *::before,
@@ -145,7 +146,7 @@ header {
     }
 
     .aboutus-hover {
-        transition: color .3s;
+        // transition: color .3s;
     }
 
     .aboutus-hover:hover {
